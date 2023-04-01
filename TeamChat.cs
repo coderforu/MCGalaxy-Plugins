@@ -7,9 +7,9 @@ namespace PluginTeamChat
 {
 	public class TeamChat : Plugin 
 	{
-		public override string creator { get { return "Not UnknownShadow200"; } }
+		public override string creator { get { return "HeyItsJackson"; } }
 		public override string MCGalaxy_Version { get { return "1.9.1.4"; } }
-		public override string name { get { return "TeamChatPlugin"; } }
+		public override string name { get { return "GangChatPlugin"; } }
 		
 		public override void Load(bool startup) {
 			OnPlayerChatEvent.Register(DoTeamChat, Priority.Low);
